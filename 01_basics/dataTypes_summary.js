@@ -23,25 +23,58 @@
 
 // console.log(typeof(bigNumber))
 
-const heros = ["batman", "spiderman", "superman"]
+// const heros = ["batman", "spiderman", "superman"]
 
-let myobj = {
-    name: "Shivam",
-    age: 22
+// let myobj = {
+//     name: "Shivam",
+//     age: 22
+// }
+
+// console.log(heros[0])
+
+// myobj["job"]="Developer"
+
+// console.log(myobj.name + " is a " + myobj.job)
+
+// const myFunction = function() {
+//     console.log("Hell World")
+// }
+
+// console.log(typeof(myFunction))
+
+// console.log(typeof(myobj))
+
+// console.log(typeof(heros))
+
+
+
+// ***************************************************Memory**********************************************************
+
+
+// Stack(Primitive), Heap(Non-primitive)
+
+
+        //                                       _______________
+        // |           |                        |              |
+        // |           |                        |              |                         
+        // |           |                        |              |
+        // |           |                        |              | 
+        // |___________|                        |______________|
+        //     Stack                                  Heap
+
+
+let somename = "Anant"
+let anothername = somename;
+
+console.log(anothername);
+
+let userOne = {
+    email: "anant@gmail.com",
+    password: "abcdefxyz"
 }
 
-console.log(heros[0])
+let userTwo = userOne;
 
-myobj["job"]="Developer"
+userOne.email = "abc@gmail.com";
 
-console.log(myobj.name + " is a " + myobj.job)
-
-const myFunction = function() {
-    console.log("Hell World")
-}
-
-console.log(typeof(myFunction))
-
-console.log(typeof(myobj))
-
-console.log(typeof(heros))
+console.log(userOne.email)
