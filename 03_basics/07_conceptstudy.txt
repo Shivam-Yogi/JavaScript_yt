@@ -1,0 +1,18 @@
+JavaScript Execution Context 
+
+(1) Global Execution Context
+
+{} -> Global Execution Context <- this
+
+for browser {this} is window object in global Context
+
+function execution context has its own "this" which refers to the caller of that function.
+
+(2) function Execution Context
+
+[{}] --> Memory Creation Phase
+[[]] --> Variable Binding Phase
+[{.}] --> Execution Phase
+
+(3) Eval Execution Context
+
