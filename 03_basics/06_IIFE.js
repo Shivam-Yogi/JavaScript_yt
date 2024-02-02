@@ -2,6 +2,7 @@
 
 
 (function chai() {
+    // named IIFE
     console.log(`DB connected One`);
 })();
 
