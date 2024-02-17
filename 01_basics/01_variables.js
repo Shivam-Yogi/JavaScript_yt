@@ -8,7 +8,7 @@ accountCity = "Delhi" // bad practise
 // accountId = 2 not allowed
 
 /*
-Prefer not to user 
+Prefer not to use
 var because the block scope issues
 */
 accountEmail = "hack@gmail.com"
